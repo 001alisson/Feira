@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="CSS/sto.css">
+    <link rel="canonical" href="https://your-website.com/blog-post" />
+    <meta property="nostr:pubkey" content="5ebde1eab4826750e1f16080b2a8a3fff08d9986f7730d12b7ebdd6ac15cb89a" />
+    <meta property="nostr:relay" content="wss://nos.lol" />
+    <link rel="stylesheet" href="https://unpkg.com/disgus/dist/style.css">
+</head>
+<body>
+    
+    <nav class="nav">
+
+        <img src="#" width="100%" height="80px">
+        
+        <div class="menu">
+            <button id="Bhome" onclick="IntoHome()">Home</button>
+            <button id="Bolimp" onclick="IntoOlimpiadas()">Olimpíadas</button>
+            <button id="Bqui" onclick="IntoSimulados()">Simulados</button>
+            <button id="Bchat" onclick="IntoChat()">Chat</button>
+            <button id="Bexp" onclick="IntoExposicao()">Sobre</button>
+        </div>
+        <img src="#" width="200px" height="220px">
+    </nav>
+
+    <!-- Home -->
+    
+    <div class="welcome">
+        
+            
+        <div class="ct">
+            <h1>Bem-vindo(a) ao NOE!</h1>
+            <br>
+            <h2>Nosso Núcleo Olímpico Estudantil</h2>
+            <br>
+            <p>Acesse aulas online, resumos, questões, exponha trabalhos e muito mais. Tudo que você precisa para arrasar nas provas.</p>
+        </div>
+            
+    </div>
+
+    <!-- Olimpíadas -->
+    
+    <div class="tela">
+        <div class="olimps">
+            <div class="card_Olimp" onclick="IntoOlimpiada1()">
+                
+            </div>
+                
+            <div class="card_Olimp" onclick="IntoOlimpiada2()">
+    
+            </div>
+        </div>
+    
+        <br>
+        <br>
+            
+        <div class="texto_olimp">
+            <h1>Estude para Olimpíadas da área!</h1>
+            <br>
+            <p>Encontre aulas dinâmicas, materiais de qualidade e muito mais! Tudo o que você precisar a desejar a um click de distância.</p>
+            <br>
+            </div>
+            
+            <br>
+            <br>
+            <br>
+    </div>
+    
+    <!-- Vídeos -->
+    
+    <div class="videotela">
+            
+        <br>
+        <br>
+        <a onclick="IntoOlimpiadas()" class="voltar">◂ Voltar</a>
+        <br>
+        <br>
+
+        <div class="ConteinerQuiz">
+            <section class="quiz">
+                <div class="questao"> 
+                    <div class="Enunciado">
+                        <p id="IdP1"><b>1º</b> Enunciado da questão. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Neque, accusantium qui dolore iusto necessitatibus fugit, doloribus nostrum ipsum voluptatum architecto
+                             recusandae nisi aperiam facilis amet aliquid, repudiandae eos molestias quia.Neque, 
+                             accusantium qui dolore iusto necessitatibus fugit, doloribus nostrum ipsum voluptatum 
+                             architecto recusandae nisi aperiam facilis amet aliquid, repudiandae eos molestias quia.
+                           </p>
+                           <br>
+                        
+                        <div class="Alternativas">
+                            <button id="IdP1Alt1" class="correta">Alternativa</button>
+                            <button id="IdP1Alt2">Alternativa</button>
+                            <button id="IdP1Alt3">Alternativa</button>
+                            <button id="IdP1Alt4">Alternativa</button>
+                        </div>
+                    </div>
+                    
+                    <img id="IdPImg" src="Img/OncFundo.jpg">
+                </div>
+
+                <div class="questao">
+                    <div class="Enunciado">
+                        <p id="IdP2"><b>1º</b> Enunciado da questão. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Neque, accusantium qui dolore iusto necessitatibus fugit, doloribus nostrum ipsum voluptatum architecto
+                             recusandae nisi aperiam facilis amet aliquid, repudiandae eos molestias quia.Neque, 
+                             accusantium qui dolore iusto necessitatibus fugit, doloribus nostrum ipsum voluptatum 
+                             architecto recusandae nisi aperiam facilis amet aliquid, repudiandae eos molestias quia.
+                           </p>
+                           <br>
+                        
+                        <div class="Alternativas">
+                            <button id="IdP2Alt1" class="correta">Alternativa</button>
+                            <button id="IdP2Alt2">Alternativa</button>
+                            <button id="IdP2Alt3">Alternativa</button>
+                            <button id="IdP2Alt4">Alternativa</button>
+                        </div>
+                    </div>
+                    
+                    <img id="IdP2Img" src="Img/OncFundo.jpg">
+                </div>
+                
+                <div class="questao">
+                    <div class="Enunciado">
+                        <p id="IdP3"><b>1º</b> Enunciado da questão. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Neque, accusantium qui dolore iusto necessitatibus fugit, doloribus nostrum ipsum voluptatum architecto
+                             recusandae nisi aperiam facilis amet aliquid, repudiandae eos molestias quia.Neque, 
+                             accusantium qui dolore iusto necessitatibus fugit, doloribus nostrum ipsum voluptatum 
+                             architecto recusandae nisi aperiam facilis amet aliquid, repudiandae eos molestias quia.
+                           </p>
+                           <br>
+                        
+                        <div class="Alternativas">
+                            <button id="IdP3Alt1" class="correta">Alternativa</button>
+                            <button id="IdP3Alt2">Alternativa</button>
+                            <button id="IdP3Alt3">Alternativa</button>
+                            <button id="IdP3Alt4">Alternativa</button>
+                        </div>
+                    </div>
+                    
+                    <img id="IdP3img" src="Img/OncFundo.jpg">
+                </div>
+
+                <div class="questao">
+                    <div class="Enunciado">
+                        <p id="IdP4"><b>1º</b> Enunciado da questão. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Neque, accusantium qui dolore iusto necessitatibus fugit, doloribus nostrum ipsum voluptatum architecto
+                             recusandae nisi aperiam facilis amet aliquid, repudiandae eos molestias quia.Neque, 
+                             accusantium qui dolore iusto necessitatibus fugit, doloribus nostrum ipsum voluptatum 
+                             architecto recusandae nisi aperiam facilis amet aliquid, repudiandae eos molestias quia.
+                           </p>
+                           <br>
+                        
+                        <div class="Alternativas">
+                            <button id="IdP4Alt1" class="correta">Alternativa</button>
+                            <button id="IdP4Alt2">Alternativa</button>
+                            <button id="IdP4Alt3">Alternativa</button>
+                            <button id="IdP4Alt4">Alternativa</button>
+                        </div>
+                    </div>
+                    
+                    <img id="IdP4img" src="Img/OncFundo.jpg">
+                </div>
+
+                <div class="questao">
+                    <div class="Enunciado">
+                        <p id="IdP5"><b>1º</b> Enunciado da questão. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Neque, accusantium qui dolore iusto necessitatibus fugit, doloribus nostrum ipsum voluptatum architecto
+                             recusandae nisi aperiam facilis amet aliquid, repudiandae eos molestias quia.Neque, 
+                             accusantium qui dolore iusto necessitatibus fugit, doloribus nostrum ipsum voluptatum 
+                             architecto recusandae nisi aperiam facilis amet aliquid, repudiandae eos molestias quia.
+                           </p>
+                           <br>
+                        
+                        <div class="Alternativas">
+                            <button id="IdP5Alt1" class="correta">Alternativa</button>
+                            <button id="IdP5Alt2">Alternativa</button>
+                            <button id="IdP5Alt3">Alternativa</button>
+                            <button id="IdP5Alt4">Alternativa</button>
+                        </div>
+                    </div>
+                    
+                    <img id="IdP5img" src="Img/OncFundo.jpg">
+                </div>
+
+                <div class="questao" id="Resultado">        
+                    <h1 id="IdApoio">Parabéns</h1>
+                    <h2> <span id="IdAcertos"></span> / <span id="IdTotal"></span></h2>
+                    <p id="IdMens">Continua se esforçando! Uma estrada sem pedras não é uma estrada.</p>
+                    <button onclick="DesQuiz()" class="Bt2">Finalizar</button>
+                </div>
+            </section>
+            
+        </div>
+
+        <header class="videos">
+            <div class="video_play">
+                    
+                <video id="videoaula" src="Img/VID-20230504-WA0033.mp4" width="650px" height="370px" controls>
+                    <source src="Img/VID-20230504-WA0033.mp4" type="video/mp4">
+                </video>
+                
+                <div class="interation">
+                    <button id="IdQ1" class="botoesDQ" onclick="Quiz()">Quiz aula 1</button>
+
+                    <div style="display: flex; gap: 10px;">
+                        <button class="like_deslike"> <img src="Img/deslike.png" width="30px" height="30px"> </button>
+                        <button class="like_deslike"> <img src="Img/like.png" width="30px" height="30px"> </button>
+                    </div>
+    
+                </div>
+                <br>
+                
+            </div>
+
+            <div id="listaV1" class="listvideo">
+                <div class="vid" onclick="Aula1Olimp1()">
+                    <img src="Img/iconplay.png">
+                    <section>
+                        <h2>Aula 1</h2>
+                        <h1> Conteúdo tal</h1>
+                        <p>Matéria</p>
+                    </section>
+                </div> 
+                <br>
+                <div class="vid" onclick="Aula2Olimp1()">
+                    <img src="Img/iconplay.png">
+                    <section>
+                        <h2>Aula 2</h2>
+                        <h1> Conteúdo tal</h1>
+                        <p>Matéria</p>
+                    </section>
+                </div>
+                <br>
+                <div class="vid" onclick="Aula3Olimp1()">
+                    <img src="Img/iconplay.png">
+                    <section>
+                        <h2>Aula 3</h2>
+                        <h1> Conteúdo tal</h1>
+                        <p>Matéria</p>
+                    </section>
+                </div>
+                <br>  
+                <div class="vid" onclick="Aula4Olimp1()">
+                    <img src="Img/iconplay.png">
+                    <section>
+                        <h2>Aula 4</h2>
+                        <h1> Conteúdo tal</h1>
+                        <p>Matéria</p>
+                    </section>
+                </div>
+                <br>
+                <div class="vid" onclick="Aula5Olimp1()">
+                    <img src="Img/iconplay.png">
+                    <section>
+                        <h2>Aula 5</h2>
+                        <h1> Conteúdo tal</h1>
+                        <p>Matéria</p>
+                    </section>
+                </div>  
+            </div>
+
+            <div id="listaV2" class="listvideo">
+                <div class="vid" onclick="Aula1Olimp2()">
+                    <img src="Img/iconplay.png">
+                    <section>
+                        <h2>Aula 1</h2>
+                        <h1> Conteúdo tal</h1>
+                        <p>Matéria</p>
+                    </section>
+                </div> 
+                <br>
+                <div class="vid" onclick="Aula2Olimp2()">
+                    <img src="Img/iconplay.png">
+                    <section>
+                        <h2>Aula 2</h2>
+                        <h1> Conteúdo tal</h1>
+                        <p>Matéria</p>
+                    </section>
+                </div>
+                <br>
+                <div class="vid" onclick="Aula3Olimp2()">
+                    <img src="Img/iconplay.png">
+                    <section>
+                        <h2>Aula 3</h2>
+                        <h1> Conteúdo tal</h1>
+                        <p>Matéria</p>
+                    </section>
+                </div>
+                <br>  
+                <div class="vid" onclick="Aula4Olimp2()">
+                    <img src="Img/iconplay.png">
+                    <section>
+                        <h2>Aula 4</h2>
+                        <h1> Conteúdo tal</h1>
+                        <p>Matéria</p>
+                    </section>
+                </div>
+                <br>
+                <div class="vid" onclick="Aula5Olimp2()">
+                    <img src="Img/iconplay.png">
+                    <section>
+                        <h2>Aula 5</h2>
+                        <h1> Conteúdo tal</h1>
+                        <p>Matéria</p>
+                    </section>
+                </div>  
+            </div>
+                
+        </header>
+        
+
+        <br>
+
+        <div class="description">
+            <h1 id="titleAula">Conteúdo tal</h1>
+            
+            <br>
+            <p id="descript">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore iste accusantium, maiores vero aliquam 
+                veniam hic, iure illo suscipit eveniet inventore fugit porro doloribus fugiat ex rerum molestias 
+                voluptatibus necessitatibus.Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore iste accusantium, maiores vero aliquam 
+                veniam hic, iure illo suscipit eveniet inventore fugit porro doloribus fugiat ex rerum molestias 
+                voluptatibus necessitatibus.</p>
+            <br>
+                
+            <h2 id="autoria">Professor fulano - instituição tal.</h2>
+            
+            <br>
+            <br>
+            <a id="material" class="botoesD" href="Img/MODELOS DCUMENTOS OMIF 2024.pdf" target="_blank" download="Img/MODELOS DCUMENTOS OMIF 2024.pdf">Material didático</a>
+        </div>
+        
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+    </div>
+
+
+    <!-- Simulados -->
+
+    <div class="ConteinerSimulados">
+        <br>
+        <br>
+        <h1 id="TitSimul">Simulados OBR</h1>
+        <hr width="90%">
+        <br>
+        <div class="Caixa">
+        <button class="controls esquerda"> ⪡ </button>
+        
+        <section class="Simulados">
+            <div class="Simulado" style="visibility: hidden;">  </div>
+            <div class="Simulado visto">
+                <h1>Simul. 01</h1>
+                <img src="Img/simuladoImg.png" title="Imagem de xadartstudio no Freepik" alt="Imagem simulado">
+                <h2>Questões de edições diferentes</h2>
+                <br>
+                <p>Treine sob um tempo cronometrado e tente simular um ambiente real da prova.</p>
+                <br>
+                
+                <a id="IdSimul1" class="Bt2" href="https://docs.google.com/document/d/1EqfoBrFRyeKbpF9WvnNDOmzyPwPhMBG_P0OtSlNF2gc/edit?usp=sharing" target="_blank">Baixar</a>
+            </div>
+
+            <div class="Simulado">
+                <h1>Simul. 02</h1>
+                
+                <img src="Img/simuladoImg.png" title="Imagem de xadartstudio no Freepik" alt="Imagem simulado">
+                <h2>Questões mais recentes</h2>
+                <br>
+                <p>Procure resolver mais as questões que você tem dificuldade.</p>
+                <br>
+                
+                <a id="IdSimul1" class="Bt2" href="Img/MODELOS DCUMENTOS OMIF 2024.pdf" target="_blank" download="MODELOS DCUMENTOS OMIF 2024.pdf">Baixar</a>
+            </div>
+
+            <div class="Simulado">
+                <h1>Simul. 03</h1>
+                <img src="Img/simuladoImg.png" title="Imagem de xadartstudio no Freepik" alt="Imagem simulado">
+                <h2>Questões mais antigas</h2>
+                <br>
+                <p>Passe menos tempo nas questões que você domina ou conhece mais.</p>
+                <br>
+                
+                <a id="IdSimul1" class="Bt2" href="Img/MODELOS DCUMENTOS OMIF 2024.pdf" target="_blank" download="MODELOS DCUMENTOS OMIF 2024.pdf">Baixar</a>
+            </div>
+
+            <div class="Simulado">
+                <h1>Simul. 04</h1>
+                <img src="Img/simuladoImg.png" title="Imagem de xadartstudio no Freepik" alt="Imagem simulado">
+                <h2>Questões pertinentes</h2>
+                <br>
+                <p>Usar fórmulas pode ajudar, mas aprender a manipulá-las traz muita eficiência.</p>
+                <br>
+                <a id="IdSimul1" class="Bt2" href="Img/MODELOS DCUMENTOS OMIF 2024.pdf" target="_blank" download="MODELOS DCUMENTOS OMIF 2024.pdf">Baixar</a>
+            </div>
+
+            <div class="Simulado">
+                <h1>Simul. 05</h1>
+                <img src="Img/simuladoImg.png" title="Imagem de xadartstudio no Freepik" alt="Imagem simulado">
+                <h2>Sugestões do professor</h2>
+                <br>
+                <p>Praticar de forma constante ajuda em uma fixação mais eficiente de conteúdo.</p>
+                <br>
+                <a id="IdSimul1" class="Bt2" href="Img/MODELOS DCUMENTOS OMIF 2024.pdf" target="_blank" download="MODELOS DCUMENTOS OMIF 2024.pdf">Baixar</a>
+            </div>
+
+            <div class="Simulado" style="visibility: hidden;">  </div>
+
+            
+        </section>
+        
+        <button class="controls direita"> ⪢ </button>
+        </div>
+
+        <br>
+        <br>
+        <h1 id="TitSimul">Simulados OBI</h1>
+        <hr width="90%">
+        <br>
+        <div class="Caixa">
+        <button class="ct2 esquerda"> ⪡ </button>
+        
+        <section class="Simulados">
+            <div class="sl2" style="visibility: hidden;">  </div>
+            <div class="sl2 Mostrado">
+                <h1>Simul. 01</h1>
+                <img src="Img/simuladoImg.png" title="Imagem de xadartstudio no Freepik" alt="Imagem simulado">
+                <h2>Questões de edições diferentes</h2>
+                <br>
+                <p>Treine sob um tempo cronometrado e tente simular um ambiente real da prova.</p>
+                <br>
+                
+                <a id="IdSimul1" class="Bt2" href="Img/MODELOS DCUMENTOS OMIF 2024.pdf" target="_blank" download="MODELOS DCUMENTOS OMIF 2024.pdf">Baixar</a>
+            </div>
+
+            <div class="sl2">
+                <h1>Simul. 02</h1>
+                
+                <img src="Img/simuladoImg.png" title="Imagem de xadartstudio no Freepik" alt="Imagem simulado">
+                <h2>Questões mais recentes</h2>
+                <br>
+                <p>Procure resolver mais as questões que você tem dificuldade.</p>
+                <br>
+                
+                <a id="IdSimul1" class="Bt2" href="Img/MODELOS DCUMENTOS OMIF 2024.pdf" target="_blank" download="MODELOS DCUMENTOS OMIF 2024.pdf">Baixar</a>
+            </div>
+
+            <div class="sl2">
+                <h1>Simul. 03</h1>
+                <img src="Img/simuladoImg.png" title="Imagem de xadartstudio no Freepik" alt="Imagem simulado">
+                <h2>Questões mais antigas</h2>
+                <br>
+                <p>Passe menos tempo nas questões que você domina ou conhece mais.</p>
+                <br>
+                
+                <a id="IdSimul1" class="Bt2" href="Img/MODELOS DCUMENTOS OMIF 2024.pdf" target="_blank" download="MODELOS DCUMENTOS OMIF 2024.pdf">Baixar</a>
+            </div>
+
+            <div class="sl2">
+                <h1>Simul. 04</h1>
+                <img src="Img/simuladoImg.png" title="Imagem de xadartstudio no Freepik" alt="Imagem simulado">
+                <h2>Questões pertinentes</h2>
+                <br>
+                <p>Usar fórmulas pode ajudar, mas aprender a manipulá-las traz muita eficiência.</p>
+                <br>
+                <a id="IdSimul1" class="Bt2" href="Img/MODELOS DCUMENTOS OMIF 2024.pdf" target="_blank" download="MODELOS DCUMENTOS OMIF 2024.pdf">Baixar</a>
+            </div>
+
+            <div class="sl2">
+                <h1>Simul. 05</h1>
+                <img src="Img/simuladoImg.png" title="Imagem de xadartstudio no Freepik" alt="Imagem simulado">
+                <h2>Sugestões do professor</h2>
+                <br>
+                <p>Praticar de forma constante ajuda em uma fixação mais eficiente de conteúdo.</p>
+                <br>
+                <a id="IdSimul1" class="Bt2" href="Img/MODELOS DCUMENTOS OMIF 2024.pdf" target="_blank" download="MODELOS DCUMENTOS OMIF 2024.pdf">Baixar</a>
+            </div>
+
+            <div class="sl2" style="visibility: hidden;">  </div>
+
+            
+        </section>
+        
+        <button class="ct2 direita"> ⪢ </button>
+        </div>
+    </div>
+
+    <!-- Chat -->
+    
+    <div class="telachat">
+        <div id="disgus" style="background-color: #0e0e0e93; 
+        border-radius: 20px; 
+        margin-right: 20px;
+        backdrop-filter: blur(10px);
+        color: rgb(200,200,200);"></div>
+        <br>
+        <br>
+    </div>
+
+    <!-- Exposição -->
+    <div class="telaexpo">
+        <div class="trabalho">
+            <header>
+                <div class="imagem">
+                    <img src="Img/ImagemIlustrativa2.png">
+                </div>
+    
+                <div class="sobre">
+                    <h1>Título</h1>
+                    <h2><b>Subtítulo</b> / minidescrição</h2>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa id quod, impedit veniam est velit expedita eligendi ab et odit vel quia repudiandae tempora amet saepe iure voluptate. Odit, adipisci?Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi fugit, asperiores dolorum voluptates consequuntur hic temporibus eveniet facilis quis sequi voluptatibus sit voluptatum illum praesentium atque. Recusandae quasi quibusdam praesentium?</p>
+                    <br>
+                    <button id="Btler" class="botoesD" onclick="ShowMore()">Ler mais</button>
+                    
+                </div>
+            </header>
+            
+            <br>
+            <br>
+
+            <div class="MaisSobre">
+                <br>
+                <section>
+                    <div class="TextoMaisSobre">
+                        <h1>Título do tópico</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, fugiat voluptatem ipsum officia neque cupiditate placeat impedit numquam ex officiis doloribus labore sunt corporis reiciendis amet magnam qui quibusdam voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem adipisci, rem quaerat porro molestiae nemo eaque sit delectus incidunt, commodi odio dolore reiciendis omnis illum dolorem dolor totam aperiam et.</p>
+        
+                    </div>
+        
+                    <div class="ImagemMaisSobre">
+                        <img src="Img/ImagemIlustrativa2.png">
+                    </div>
+                </section>
+                <br>
+                <br>
+                <section>
+                    <div class="TextoMaisSobre">
+                        <h1>Título do tópico</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, fugiat voluptatem ipsum officia neque cupiditate placeat impedit numquam ex officiis doloribus labore sunt corporis reiciendis amet magnam qui quibusdam voluptatum.</p>
+        
+                    </div>
+        
+                    <div class="ImagemMaisSobre">
+                        <img src="Img/ImagemIlustrativa2.png">
+                    </div>
+                </section>
+                <br>
+                <br>
+                <section>
+                    <div class="TextoMaisSobre">
+                        <h1>Título do tópico</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, fugiat voluptatem ipsum officia neque cupiditate placeat impedit numquam ex officiis doloribus labore sunt corporis reiciendis amet magnam qui quibusdam voluptatum.</p>
+        
+                    </div>
+        
+                    <div class="ImagemMaisSobre">
+                        <img src="Img/ImagemIlustrativa2.png">
+                    </div>
+                </section>
+            </div>
+            
+        </div>
+    </div>
+
+    <script src="JS/stjh.js">   </script>
+    <script src="JS/carrossel.js">   </script>
+    <script type="module" src="https://unpkg.com/disgus/dist/index.js" async></script>
+</body> 
+</html>
