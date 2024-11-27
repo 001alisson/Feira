@@ -45,12 +45,17 @@
     
     <div class="tela">
         <div class="olimps">
-            <div class="card_Olimp" onclick="IntoOlimpiada1()">
+            <!-- <div class="card_Olimp" onclick="IntoOlimpiada1()">
                 
+            </div> -->
+            <div class="card_Olimp" onclick="IntoCapaOlimpiadas('obr')">
+                <img src="Img/obr.png" alt="Olimpíada Brasileira de Robótica" width="100%">
             </div>
-                
-            <div class="card_Olimp" onclick="IntoOlimpiada2()">
+            <!-- <div class="card_Olimp" onclick="IntoOlimpiada2()">
     
+            </div> -->
+            <div class="card_Olimp" onclick="IntoCapaOlimpiadas('obi')">
+                <img src="Img/obi.png" alt="Olimpíada Brasileira de Informática" width="100%">
             </div>
         </div>
     
@@ -69,6 +74,75 @@
             <br>
     </div>
     
+    <!-- Capas Olimpiadas -->
+
+    <div class="olimpiada-capas">
+        <!-- Capa da OBR -->
+        <div class="capa-obr">
+            <div class="capa-voltar">
+                <br>
+                <br>
+                <a onclick="IntoOlimpiadas()" class="voltar">◂ Voltar</a>
+                <br>
+                <br>
+            </div>
+            <div class="capa-header">
+                <h1>Olimpíada Brasileira de Robótica</h1>
+                <img src="Img/obr.png" alt="Olimpíada Brasileira de Robótica">
+            </div>
+            
+            <div class="capa-conteudo">
+                <p>
+                    A Olimpíada Brasileira de Robótica (OBR) é uma competição destinada a estudantes apaixonados por tecnologia e 
+                    inovação. Focada no desenvolvimento de soluções robóticas, a OBR oferece desafios que integram conhecimento 
+                    técnico e criatividade.
+                </p>
+                <br>
+                <p>
+                    Explore conteúdos exclusivos, desde conceitos básicos de robótica até dicas avançadas para construir e programar robôs. 
+                    Prepare-se para competir em uma das maiores olimpíadas científicas do Brasil!
+                </p>
+            </div>
+        
+            <div class="capa-botao">
+                <button onclick="IntoOlimpiada1()">Acessar Conteúdo da OBR</button>
+            </div>
+        </div>
+    
+        <!-- Capa da OBI -->
+        <div class="capa-obi">
+            <div class="capa-voltar">
+                <br>
+                <br>
+                <a onclick="IntoOlimpiadas()" class="voltar">◂ Voltar</a>
+                <br>
+                <br>
+            </div>
+            <div class="capa-header">
+                <h1>Olimpíada Brasileira de Informática</h1>
+                <img src="Img/obi.png" alt="Olimpíada Brasileira de Informática">
+            </div>
+            
+            <div class="capa-conteudo">
+                <p>
+                    A Olimpíada Brasileira de Informática (OBI) é uma competição que desafia estudantes a resolver problemas computacionais 
+                    e criar soluções eficientes usando programação. Participar é uma excelente forma de desenvolver habilidades lógicas 
+                    e aprender mais sobre o universo da computação.
+                </p>
+                <br>
+                <p>
+                    Nesta página, você encontrará tutoriais, exercícios resolvidos e simulados para melhorar suas habilidades em linguagens 
+                    de programação e se destacar na competição.
+                </p>
+            </div>
+        
+            <div class="capa-botao">
+                <button onclick="IntoOlimpiada2()">Acessar Conteúdo da OBI</button>
+            </div>
+        </div>
+    </div>
+    
+
     <!-- Vídeos -->
     
     <div class="videotela">
