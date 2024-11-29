@@ -13,6 +13,11 @@ function IntoOlimpiadas(){
     document.querySelector(".tela").classList.add("aparecer_db");
 };
 
+function IntoCapaOlimpiadas(capa) {
+    des();
+
+    document.querySelector(`.capa-${capa}`).classList.add("apdr");
+}
 
 function IntoSimulados(){
     des();
@@ -59,6 +64,11 @@ function des(){
     document.querySelector(".videotela").classList.remove("aprecer_db2");
 
     document.querySelector(".telachat").classList.remove("apdr");
+
+    let capas = Array.from(document.querySelectorAll(".olimpiada-capas > div"));
+    capas.forEach(capa => {
+        capa.classList.remove("apdr");
+    });
 
     document.querySelector(".telaexpo").classList.remove("aprdb");
 
