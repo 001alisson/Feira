@@ -154,12 +154,13 @@ body{
 }
 .card_Olimp{
     width: 380px;
-    height: 320px;
+    height: fit-content;
     border-radius: 10px;
     border: 1px solid rgb(55, 55, 55);
     backdrop-filter: blur(10px);
     transition: 0.5s;
     cursor: pointer;
+    overflow: hidden;
 }
 .card_Olimp:hover{
     transform: scale(1.1) translateY(-5px);
@@ -204,6 +205,23 @@ body{
     transform: translateX(-150vw);
     text-align: center;
 }
+.capa-obr::-webkit-scrollbar, .capa-obi::-webkit-scrollbar{
+    width: 10px;
+    z-index: 100;
+}
+.capa-obr::-webkit-scrollbar-button, .capa-obi::-webkit-scrollbar-button{
+    display: none;
+}
+.capa-obr::-webkit-scrollbar-track, .capa-obi::-webkit-scrollbar-track{
+    background-color: rgb(0, 0, 0, 0);
+    z-index: 100;
+}
+.capa-obr::-webkit-scrollbar-thumb, .capa-obi::-webkit-scrollbar-thumb{
+    border-radius: 50px;
+    background-color: rgb(175, 175, 175, 0.9);
+    z-index: 100;
+}
+
 .olimpiada-capas .capa-voltar {
     text-align: start;
     display: flex;
@@ -233,6 +251,12 @@ body{
     font-size: 24px;
     border: 2px solid white;
     border-radius: 8px;
+    transition: 0.4s;
+}
+.capa-botao button:hover{
+    background-color: #f3f3f3;
+    color: #000f53;
+    transition: 0.4s;
 }
 
 /* -------------- Vídeos -------------- */
