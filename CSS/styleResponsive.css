@@ -126,4 +126,21 @@
         display: none;
     }
     
+    .ConteinerQuiz{
+        position: fixed;
+    }
+    .quiz{
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+    .questao{
+        flex-direction: column;
+    }
+    .Enunciado{
+        width: 100%;
+    }
+    .questao img{
+        height: 100%;
+        width: 100%;
+    }
 }

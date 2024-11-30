@@ -418,6 +418,7 @@ body{
     left: 0;
     background-color: rgba(0, 0, 0, 0.75);
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     z-index: -100000000000;
@@ -526,7 +527,7 @@ body{
     background-color:#004b91;
 }
 
-
+/*  Desccriçao das aulas  */
 .interation{
     display: flex;
     justify-content: space-between;
