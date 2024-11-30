@@ -62,6 +62,7 @@
 
     .videotela{
         width: 100%;
+        overflow-x: hidden;
     }
     .videos{
         flex-direction: column;
