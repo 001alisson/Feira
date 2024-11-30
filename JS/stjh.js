@@ -85,12 +85,13 @@ function IntoOlimpiada1(){
     document.getElementById('listaV1').classList.remove("sumir");
     document.getElementById('listaV2').classList.add("sumir");
 
-    
+    Aula1Olimp1();
 };
 
 function IntoOlimpiada2(){
-    IntoOlimpiada1();
-
+    des();
+    
+    document.querySelector(".videotela").classList.add("aparecer_db2");
     document.getElementById('listaV1').classList.add("sumir");
     document.getElementById('listaV2').classList.remove("sumir");
 
@@ -146,59 +147,73 @@ function Pausar(){
 }
 
 function Aula1Olimp1(){
-    video.src = "VID-20230504-WA0033.mp4";
-    // document.getElementById('sc').innerHTML = "Aula 1";
-    document.getElementById('titleAula').innerHTML = "Conteúdo tal";
-    document.getElementById('descript').innerHTML = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore iste accusantium, maiores vero aliquam veniam hic, iure illo suscipit eveniet inventore fugit porro doloribus fugiat ex rerum molestias voluptatibus necessitatibus.";
-    document.getElementById('autoria').innerHTML = "Professor fulano - instituição tal.";
-    material.href = "file:///C:/Users/alisson/Desktop/Plataforma/MODELOS DCUMENTOS OMIF 2024.pdf";
-    material.download = "MODELOS DCUMENTOS OMIF 2024.pdf";
+    video.src = "https://www.youtube.com/embed/SWG9KWk5XPI?si=whr3RdEqXKjYbrHM";
+    video.title = "Apresentando o VSCode";
+    // document.getElementById("sc").innerHTML = "Aula 1";
+    document.getElementById("Titulo").innerHTML = "Preparando o Ambiente de programação";
+    document.getElementById("descricao").innerHTML = "É sempre importante ter um espaço para trabalhar, antes de partir para as contas, é necessário conseguir papel e lápis, já para começar a programar, é necessário possuir um interpretador de comandos, ou seja, um software/aplicativo capaz de interpretar os códigos.";
+    document.getElementById("professor").innerHTML = "Professor Yuri Lacerda - IFCE Campus Crato.";
+    // material.href = "file:///C:/Users/alisson/Desktop/Plataforma/MODELOS DCUMENTOS OMIF 2024.pdf";
+    // material.download = "MODELOS DCUMENTOS OMIF 2024.pdf";
+    // Pausar();
 
-    Pausar();
+    Bquiz(4);
 }
 
 function Aula2Olimp1(){
-    video.src = "20240407_073514.mp4";
-    document.getElementById('sc').innerHTML = "Aula 2";
-    document.getElementById('titleAula').innerHTML = "Conteúdo diverso";
-    document.getElementById('descript').innerHTML = "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit beatae placeat aperiam, perferendis totam a eveniet veritatis fuga suscipit itaque, maiores maxime consectetur modi, possimus sit ab? Facilis, provident sed?";
-    document.getElementById('autoria').innerHTML = "Professor beltrano - instituição tal.";
-    material.href = "file:///C:/Users/alisson/Desktop/Plataforma/Fungos - ap.pdf";
-    material.download = "Fungos - ap.pdf";
-    Pausar();
+    video.src = "https://www.youtube.com/embed/SWG9KWk5XPI?si=whr3RdEqXKjYbrHM";
+    video.title = "Apresentando o VSCode";
+    // document.getElementById("sc").innerHTML = "Aula 1";
+    document.getElementById("Titulo").innerHTML = "Preparando o Ambiente de programação";
+    document.getElementById("descricao").innerHTML = "É sempre importante ter um espaço para trabalhar, antes de partir para as contas, é necessário conseguir papel e lápis, já para começar a programar, é necessário possuir um interpretador de comandos, ou seja, um software/aplicativo capaz de interpretar os códigos.";
+    document.getElementById("professor").innerHTML = "Professor Yuri Lacerda - IFCE Campus Crato.";
+    // material.href = "file:///C:/Users/alisson/Desktop/Plataforma/MODELOS DCUMENTOS OMIF 2024.pdf";
+    // material.download = "MODELOS DCUMENTOS OMIF 2024.pdf";
+    // Pausar();
+
+    Bquiz(5);
 }
 
 function Aula3Olimp1(){
-    video.src = "VID-20230504-WA0033.mp4";
-    // document.getElementById('sc').innerHTML = "Aula 3";
-    document.getElementById('titleAula').innerHTML = "Conteúdo tal";
-    document.getElementById('descript').innerHTML = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore iste accusantium, maiores vero aliquam veniam hic, iure illo suscipit eveniet inventore fugit porro doloribus fugiat ex rerum molestias voluptatibus necessitatibus.";
-    document.getElementById('autoria').innerHTML = "Professor fulano - instituição tal.";
-    material.href = "file:///C:/Users/alisson/Desktop/Plataforma/MODELOS DCUMENTOS OMIF 2024.pdf";
-    material.download = "MODELOS DCUMENTOS OMIF 2024.pdf";
-    Pausar();
+    video.src = "https://www.youtube.com/embed/SWG9KWk5XPI?si=whr3RdEqXKjYbrHM";
+    video.title = "Apresentando o VSCode";
+    // document.getElementById("sc").innerHTML = "Aula 1";
+    document.getElementById("Titulo").innerHTML = "Preparando o Ambiente de programação";
+    document.getElementById("descricao").innerHTML = "É sempre importante ter um espaço para trabalhar, antes de partir para as contas, é necessário conseguir papel e lápis, já para começar a programar, é necessário possuir um interpretador de comandos, ou seja, um software/aplicativo capaz de interpretar os códigos.";
+    document.getElementById("professor").innerHTML = "Professor Yuri Lacerda - IFCE Campus Crato.";
+    // material.href = "file:///C:/Users/alisson/Desktop/Plataforma/MODELOS DCUMENTOS OMIF 2024.pdf";
+    // material.download = "MODELOS DCUMENTOS OMIF 2024.pdf";
+    // Pausar();
+
+    Bquiz(6);
 }
 
 function Aula4Olimp1(){
-    video.src = "20240407_073514.mp4";
-    // document.getElementById('sc').innerHTML = "Aula 4";
-    document.getElementById('titleAula').innerHTML = "Conteúdo diverso";
-    document.getElementById('descript').innerHTML = "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit beatae placeat aperiam, perferendis totam a eveniet veritatis fuga suscipit itaque, maiores maxime consectetur modi, possimus sit ab? Facilis, provident sed?";
-    document.getElementById('autoria').innerHTML = "Professor beltrano - instituição tal.";
-    material.href = "file:///C:/Users/alisson/Desktop/Plataforma/Fungos - ap.pdf";
-    material.download = "Fungos - ap.pdf";
-    Pausar();
+    video.src = "https://www.youtube.com/embed/SWG9KWk5XPI?si=whr3RdEqXKjYbrHM";
+    video.title = "Apresentando o VSCode";
+    // document.getElementById("sc").innerHTML = "Aula 1";
+    document.getElementById("Titulo").innerHTML = "Preparando o Ambiente de programação";
+    document.getElementById("descricao").innerHTML = "É sempre importante ter um espaço para trabalhar, antes de partir para as contas, é necessário conseguir papel e lápis, já para começar a programar, é necessário possuir um interpretador de comandos, ou seja, um software/aplicativo capaz de interpretar os códigos.";
+    document.getElementById("professor").innerHTML = "Professor Yuri Lacerda - IFCE Campus Crato.";
+    // material.href = "file:///C:/Users/alisson/Desktop/Plataforma/MODELOS DCUMENTOS OMIF 2024.pdf";
+    // material.download = "MODELOS DCUMENTOS OMIF 2024.pdf";
+    // Pausar();
+
+    Bquiz(0);
 }
 
 function Aula5Olimp1(){
-    video.src = "VID-20230504-WA0033.mp4";
-    // document.getElementById('sc').innerHTML = "Aula 5";
-    document.getElementById('titleAula').innerHTML = "Conteúdo tal";
-    document.getElementById('descript').innerHTML = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore iste accusantium, maiores vero aliquam veniam hic, iure illo suscipit eveniet inventore fugit porro doloribus fugiat ex rerum molestias voluptatibus necessitatibus.";
-    document.getElementById('autoria').innerHTML = "Professor fulano - instituição tal.";
-    material.href = "file:///C:/Users/alisson/Desktop/Plataforma/MODELOS DCUMENTOS OMIF 2024.pdf";
-    material.download = "MODELOS DCUMENTOS OMIF 2024.pdf";
-    Pausar();
+    video.src = "https://www.youtube.com/embed/SWG9KWk5XPI?si=whr3RdEqXKjYbrHM";
+    video.title = "Apresentando o VSCode";
+    // document.getElementById("sc").innerHTML = "Aula 1";
+    document.getElementById("Titulo").innerHTML = "Preparando o Ambiente de programação";
+    document.getElementById("descricao").innerHTML = "É sempre importante ter um espaço para trabalhar, antes de partir para as contas, é necessário conseguir papel e lápis, já para começar a programar, é necessário possuir um interpretador de comandos, ou seja, um software/aplicativo capaz de interpretar os códigos.";
+    document.getElementById("professor").innerHTML = "Professor Yuri Lacerda - IFCE Campus Crato.";
+    // material.href = "file:///C:/Users/alisson/Desktop/Plataforma/MODELOS DCUMENTOS OMIF 2024.pdf";
+    // material.download = "MODELOS DCUMENTOS OMIF 2024.pdf";
+    // Pausar();
+
+    Bquiz(0);
 }
 
 /* */
@@ -213,6 +228,8 @@ function Aula1Olimp2(){
     // material.href = "file:///C:/Users/alisson/Desktop/Plataforma/MODELOS DCUMENTOS OMIF 2024.pdf";
     // material.download = "MODELOS DCUMENTOS OMIF 2024.pdf";
     // Pausar();
+
+    Bquiz(0);
 }
 
 function Aula2Olimp2(){
@@ -225,6 +242,8 @@ function Aula2Olimp2(){
     // material.href = "file:///C:/Users/alisson/Desktop/Plataforma/MODELOS DCUMENTOS OMIF 2024.pdf";
     // material.download = "MODELOS DCUMENTOS OMIF 2024.pdf";
     // Pausar();
+
+    Bquiz(1);
 }
 
 function Aula3Olimp2(){
@@ -237,6 +256,8 @@ function Aula3Olimp2(){
     // material.href = "file:///C:/Users/alisson/Desktop/Plataforma/Fungos - ap.pdf";
     // material.download = "Fungos - ap.pdf";
     // Pausar();
+
+    Bquiz(2);
 }
 
 function Aula4Olimp2(){
@@ -249,6 +270,8 @@ function Aula4Olimp2(){
     // material.href = "file:///C:/Users/alisson/Desktop/Plataforma/MODELOS DCUMENTOS OMIF 2024.pdf";
     // material.download = "MODELOS DCUMENTOS OMIF 2024.pdf";
     // Pausar();
+
+    Bquiz(3);
 }
 
 function Aula5Olimp2(){
@@ -259,16 +282,32 @@ function Aula5Olimp2(){
     document.getElementById('autoria').innerHTML = "Professor fulano - instituição tal.";
     material.href = "file:///C:/Users/alisson/Desktop/Plataforma/MODELOS DCUMENTOS OMIF 2024.pdf";
     material.download = "MODELOS DCUMENTOS OMIF 2024.pdf";
-    Pausar();
+    // Pausar();
+
+    // Bquiz(0);
+}
+
+let buttons = document.querySelectorAll(".botoesDQ");
+
+function Bquiz(indB){
+    buttons.forEach(element => {
+        element.classList.add("sumir");
+    });
+
+    buttons[indB].classList.remove("sumir");
 }
 
 
+let Contquizzes = document.querySelectorAll(".ConteinerQuiz");
+let quiz = document.querySelectorAll(".quiz");
 
-
-function Quiz(){
-    document.querySelector(".ConteinerQuiz").classList.add("iniciarConteiner");
-    document.querySelector(".quiz").classList.add("initQuiz");
+function Quiz(ind){
+    Contquizzes[ind].classList.add("iniciarConteiner");
+    
+    quiz[ind].classList.add("initQuiz");
 }
+
+
 
 
 const controls = document.querySelectorAll(".Alternativas button");
@@ -326,8 +365,13 @@ function DesQuiz(){
         block: "nearest"
     });
 
-    document.querySelector(".ConteinerQuiz").classList.remove("iniciarConteiner");
-    document.querySelector(".quiz").classList.remove("initQuiz");
+    Contquizzes.forEach(Cont => {
+        Cont.classList.remove("iniciarConteiner");
+    });
+    
+    quiz.forEach(qui => {
+        qui.classList.remove("initQuiz");
+    });
 }
 
 
