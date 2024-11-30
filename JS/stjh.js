@@ -331,97 +331,25 @@ function DesQuiz(){
 }
 
 
+// Responsividade
 
+var menu = document.getElementById("IdMenu");
+var bg = document.querySelector("body")
+var r = false
 
+bg.classList.add("offbg");
 
+function showMenu(){
+    r = !r
 
-
-
-
-
-
-// const controlsOBR = document.querySelectorAll(".controls");
-// let indece = 2;
-// const itemsOBR = document.querySelectorAll(".Simulado");
-// const maxItemsOBR = itemsOBR.length;
-
-// itemsOBR[indece].scrollIntoView({
-//     behavior: "instant",
-//     inline: "center",
-//     block: "nearest"
-// });
-
-// controlsOBR.forEach((controlOBR) => {
-//   controlOBR.addEventListener("click", (f) => {
-//     isLeftOBR = f.target.classList.contains("esquerda");
-        
-//     if (isLeftOBR) {
-//       indece -= 1;
-
-//       if (indece < 1) {
-//         indece = 1;
-//       }
-      
-//     } else {
-//       indece += 1;
-
-//       if (indece >= maxItemsOBR-1) {
-//         indece = maxItemsOBR-2;
-//       }
-//     }
-
-//     itemsOBR.forEach((itemB) => itemB.classList.remove("Simulado_view"));
-
-//     itemsOBR[indece].scrollIntoView({
-//       behavior: "smooth",
-//       inline: "center",
-//       block: "nearest"
-//     });
-
-//     itemsOBR[indece].classList.add("Simulado_view");
+    if (r){
+        menu.classList.remove("off");
+        bg.classList.remove("offbg")
+    }
+    else{
+        menu.classList.add("off");
+        bg.classList.add("offbg");
+    }
     
-//   });
-// });
-
-// const controlsOBI = document.querySelectorAll(".ct2");
-// let indeceOBI = 2;
-// const itemsOBI = document.querySelectorAll(".sl2");
-// const maxItemsOBI = itemsOBI.length;
-
-// itemsOBI[indeceOBI].scrollIntoView({
-//     behavior: "instant",
-//     inline: "center",
-//     block: "nearest"
-// });
-
-// controlsOBI.forEach((control2) => {
-//   control2.addEventListener("click", (c) => {
-//     isLeftOBI = c.target.classList.contains("esquerda");
-        
-//     if (isLeftOBI) {
-//       indeceOBI -= 1;
-
-//       if (indeceOBI < 1) {
-//         indeceOBI = 1;
-//       }
-      
-//     } else {
-//       indeceOBI += 1;
-
-//       if (indeceOBI >= maxItemsOBI-1) {
-//         indeceOBI = maxItemsOBI-2;
-//       }
-//     }
-
-//     itemsOBI.forEach((item2) => item2.classList.remove("Simulado_view"));
-
-//     itemsOBI[indeceOBI].scrollIntoView({
-//       behavior: "smooth",
-//       inline: "center",
-//       block: "nearest"
-//     });
-
-//     itemsOBI[indeceOBI].classList.add("Simulado_view");
-    
-//   });
-// });
+}
+showMenu();

@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="stylesheet" href="CSS/sto.css">
+    <link rel="stylesheet" href="CSS/styleResponsive.css">
+
+    
+
     <link rel="canonical" href="https://your-website.com/blog-post" />
     <meta property="nostr:pubkey" content="5ebde1eab4826750e1f16080b2a8a3fff08d9986f7730d12b7ebdd6ac15cb89a" />
     <meta property="nostr:relay" content="wss://nos.lol" />
@@ -12,9 +16,9 @@
 </head>
 <body>
     
-    <nav class="nav">
-
-        <img src="#" width="100%" height="80px">
+    <nav class="nav" id="IdMenu">
+        <br>
+        <img id="btm" src="Img/menu.png" style="width: 40px; float: right; position: relative; margin-left: 130%;" onclick="showMenu()">
         
         <div class="menu">
             <button id="Bhome" onclick="IntoHome()">Home</button>
@@ -23,7 +27,7 @@
             <button id="Bchat" onclick="IntoChat()">Chat</button>
             <button id="Bexp" onclick="IntoExposicao()">Sobre</button>
         </div>
-        <img src="#" width="200px" height="220px">
+        
     </nav>
 
     <!-- Home -->
@@ -346,7 +350,7 @@
                     <img src="Img/iconplay.png">
                     <section>
                         <h2>Aula 1</h2>
-                        <h1>Funções</h1>
+                        <h1>Ambiente</h1>
                         <p>Progração em py</p>
                     </section>
                 </div> 
@@ -355,8 +359,8 @@
                     <img src="Img/iconplay.png">
                     <section>
                         <h2>Aula 2</h2>
-                        <h1> Conteúdo tal</h1>
-                        <p>Matéria</p>
+                        <h1> Funções</h1>
+                        <p>Progamação em py</p>
                     </section>
                 </div>
                 <br>
@@ -364,8 +368,8 @@
                     <img src="Img/iconplay.png">
                     <section>
                         <h2>Aula 3</h2>
-                        <h1> Conteúdo tal</h1>
-                        <p>Matéria</p>
+                        <h1> Listas</h1>
+                        <p>Programação em py</p>
                     </section>
                 </div>
                 <br>  
@@ -373,8 +377,8 @@
                     <img src="Img/iconplay.png">
                     <section>
                         <h2>Aula 4</h2>
-                        <h1> Conteúdo tal</h1>
-                        <p>Matéria</p>
+                        <h1>Matrizes</h1>
+                        <p>Programação em py</p>
                     </section>
                 </div>
                 <br>
@@ -434,7 +438,7 @@
         <button class="controls esquerda"> ⪡ </button>
         
         <section class="Simulados">
-            <div class="Simulado" style="visibility: hidden;">  </div>
+            <div class="Simulado" id="prim">  </div>
             <div class="Simulado visto">
                 <h1>Simul. 01</h1>
                 <img src="Img/simuladoImg.png" title="Imagem de xadartstudio no Freepik" alt="Imagem simulado">
@@ -506,7 +510,7 @@
         <button class="ct2 esquerda"> ⪡ </button>
         
         <section class="Simulados">
-            <div class="sl2" style="visibility: hidden;">  </div>
+            <div class="sl2" id="prim">  </div>
             <div class="sl2 Mostrado">
                 <h1>Simul. 01</h1>
                 <img src="Img/simuladoImg.png" title="Imagem de xadartstudio no Freepik" alt="Imagem simulado">

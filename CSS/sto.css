@@ -11,9 +11,13 @@ body{
     background-attachment: fixed;
     overflow: hidden;
     width: 100vw;
-    height: 100vh;  
+    height: 100vh;
+    transition: 0.8s;
 }
 
+#btm{
+    display: none;
+}
 /* -------------- Navegação -------------- */
 
 .nav{
@@ -28,7 +32,17 @@ body{
     align-items: center;
     background: linear-gradient(#020020, #000930, #000f53); 
     z-index: 10000000;
+    transition: 0.8s;
 }
+.off{
+    transform: translateX(-100%);    
+    transition: 0.8s;
+}
+.offbg{
+    padding-left: 0;
+    transition: 0.8s;
+}
+
 .menu{
     display: flex;
     flex-direction: column;
@@ -108,7 +122,7 @@ body{
     overflow-x: hidden;
     transform: translateY(150vh);
     height: 100vh;
-    width: calc(100vw - 240px);
+    width: calc(100% - 240px);
     z-index: 100;
     align-items: center;
     transition: 1s;
@@ -319,8 +333,7 @@ body{
     align-items: end;
     
 }
-.video_play video{
-    border: 1px solid rgb(104, 104, 104);
+.video_play iframe{
     border-radius: 10px;
     background-color: black;
 }
@@ -840,6 +853,10 @@ div.apdr{
 
 
 /* Simulados */
+#prim{
+    visibility: hidden;
+}
+
 .ConteinerSimulados{
     display: flex;
     flex-direction: column;
