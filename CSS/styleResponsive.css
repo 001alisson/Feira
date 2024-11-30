@@ -3,6 +3,9 @@
         padding-left: 0;
         background-position: center;
     }
+    .offbg{
+        padding-left: 0;
+    }
     .nav{
         position: fixed;
     }

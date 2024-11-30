@@ -352,4 +352,3 @@ function showMenu(){
     }
     
 }
-showMenu();
