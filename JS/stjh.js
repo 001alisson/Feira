@@ -297,14 +297,84 @@ function Bquiz(indB){
     buttons[indB].classList.remove("sumir");
 }
 
+let perguntas = [["<b>1º</b> Enunciado da questão. Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, accusantium qui dolore iusto necessitatibus fugit, doloribus nostrum ipsum voluptatum architecto recusandae nisi aperiam facilis amet aliquid, repudiandae eos molestias quia.Neque, accusantium qui dolore iusto necessitatibus fugit, doloribus nostrum ipsum voluptatum architecto recusandae nisi aperiam facilis amet aliquid, repudiandae eos molestias quia.",
+                    "<b>2º</b> Enunciado da questão. Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, accusantium qui dolore iusto necessitatibus fugit, doloribus nostrum ipsum voluptatum architecto recusandae nisi aperiam facilis amet aliquid, repudiandae eos molestias quia.Neque, accusantium qui dolore iusto necessitatibus fugit, doloribus nostrum ipsum voluptatum architecto recusandae nisi aperiam facilis amet aliquid, repudiandae eos molestias quia.",
+                    "<b>3º</b> Enunciado da questão. Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, accusantium qui dolore iusto necessitatibus fugit, doloribus nostrum ipsum voluptatum architecto recusandae nisi aperiam facilis amet aliquid, repudiandae eos molestias quia.Neque, accusantium qui dolore iusto necessitatibus fugit, doloribus nostrum ipsum voluptatum architecto recusandae nisi aperiam facilis amet aliquid, repudiandae eos molestias quia.",
+                    "<b>4º</b> Enunciado da questão. Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, accusantium qui dolore iusto necessitatibus fugit, doloribus nostrum ipsum voluptatum architecto recusandae nisi aperiam facilis amet aliquid, repudiandae eos molestias quia.Neque, accusantium qui dolore iusto necessitatibus fugit, doloribus nostrum ipsum voluptatum architecto recusandae nisi aperiam facilis amet aliquid, repudiandae eos molestias quia.",
+                    "<b>5º</b> Enunciado da questão. Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, accusantium qui dolore iusto necessitatibus fugit, doloribus nostrum ipsum voluptatum architecto recusandae nisi aperiam facilis amet aliquid, repudiandae eos molestias quia.Neque, accusantium qui dolore iusto necessitatibus fugit, doloribus nostrum ipsum voluptatum architecto recusandae nisi aperiam facilis amet aliquid, repudiandae eos molestias quia."],
+                
+                    ["<b>1º</b> Enunciado da questão. Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, accusantium qui dolore iusto necessitatibus fugit, doloribus nostrum ipsum voluptatum architecto recusandae nisi aperiam facilis amet aliquid, repudiandae eos molestias quia.Neque, accusantium qui dolore iusto necessitatibus fugit, doloribus nostrum ipsum voluptatum architecto recusandae nisi aperiam facilis amet aliquid, repudiandae eos molestias quia.",
+                    "<b>2º</b> Enunciado da questão. Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, accusantium qui dolore iusto necessitatibus fugit, doloribus nostrum ipsum voluptatum architecto recusandae nisi aperiam facilis amet aliquid, repudiandae eos molestias quia.Neque, accusantium qui dolore iusto necessitatibus fugit, doloribus nostrum ipsum voluptatum architecto recusandae nisi aperiam facilis amet aliquid, repudiandae eos molestias quia.",
+                    "<b>3º</b> Enunciado da questão. Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, accusantium qui dolore iusto necessitatibus fugit, doloribus nostrum ipsum voluptatum architecto recusandae nisi aperiam facilis amet aliquid, repudiandae eos molestias quia.Neque, accusantium qui dolore iusto necessitatibus fugit, doloribus nostrum ipsum voluptatum architecto recusandae nisi aperiam facilis amet aliquid, repudiandae eos molestias quia.",
+                    "<b>4º</b> Enunciado da questão. Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, accusantium qui dolore iusto necessitatibus fugit, doloribus nostrum ipsum voluptatum architecto recusandae nisi aperiam facilis amet aliquid, repudiandae eos molestias quia.Neque, accusantium qui dolore iusto necessitatibus fugit, doloribus nostrum ipsum voluptatum architecto recusandae nisi aperiam facilis amet aliquid, repudiandae eos molestias quia.",
+                    "<b>5º</b> Enunciado da questão. Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, accusantium qui dolore iusto necessitatibus fugit, doloribus nostrum ipsum voluptatum architecto recusandae nisi aperiam facilis amet aliquid, repudiandae eos molestias quia.Neque, accusantium qui dolore iusto necessitatibus fugit, doloribus nostrum ipsum voluptatum architecto recusandae nisi aperiam facilis amet aliquid, repudiandae eos molestias quia."],
+                
+                    ["<b>1º</b> Enunciado da questão. Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, accusantium qui dolore iusto necessitatibus fugit, doloribus nostrum ipsum voluptatum architecto recusandae nisi aperiam facilis amet aliquid, repudiandae eos molestias quia.Neque, accusantium qui dolore iusto necessitatibus fugit, doloribus nostrum ipsum voluptatum architecto recusandae nisi aperiam facilis amet aliquid, repudiandae eos molestias quia.",
+                    "<b>2º</b> Enunciado da questão. Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, accusantium qui dolore iusto necessitatibus fugit, doloribus nostrum ipsum voluptatum architecto recusandae nisi aperiam facilis amet aliquid, repudiandae eos molestias quia.Neque, accusantium qui dolore iusto necessitatibus fugit, doloribus nostrum ipsum voluptatum architecto recusandae nisi aperiam facilis amet aliquid, repudiandae eos molestias quia.",
+                    "<b>3º</b> Enunciado da questão. Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, accusantium qui dolore iusto necessitatibus fugit, doloribus nostrum ipsum voluptatum architecto recusandae nisi aperiam facilis amet aliquid, repudiandae eos molestias quia.Neque, accusantium qui dolore iusto necessitatibus fugit, doloribus nostrum ipsum voluptatum architecto recusandae nisi aperiam facilis amet aliquid, repudiandae eos molestias quia.",
+                    "<b>4º</b> Enunciado da questão. Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, accusantium qui dolore iusto necessitatibus fugit, doloribus nostrum ipsum voluptatum architecto recusandae nisi aperiam facilis amet aliquid, repudiandae eos molestias quia.Neque, accusantium qui dolore iusto necessitatibus fugit, doloribus nostrum ipsum voluptatum architecto recusandae nisi aperiam facilis amet aliquid, repudiandae eos molestias quia.",
+                    "<b>5º</b> Enunciado da questão. Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, accusantium qui dolore iusto necessitatibus fugit, doloribus nostrum ipsum voluptatum architecto recusandae nisi aperiam facilis amet aliquid, repudiandae eos molestias quia.Neque, accusantium qui dolore iusto necessitatibus fugit, doloribus nostrum ipsum voluptatum architecto recusandae nisi aperiam facilis amet aliquid, repudiandae eos molestias quia."],
 
-let Contquizzes = document.querySelectorAll(".ConteinerQuiz");
-let quiz = document.querySelectorAll(".quiz");
+                    ["<b>1º</b> Enunciado da questão. Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, accusantium qui dolore iusto necessitatibus fugit, doloribus nostrum ipsum voluptatum architecto recusandae nisi aperiam facilis amet aliquid, repudiandae eos molestias quia.Neque, accusantium qui dolore iusto necessitatibus fugit, doloribus nostrum ipsum voluptatum architecto recusandae nisi aperiam facilis amet aliquid, repudiandae eos molestias quia.",
+                    "<b>2º</b> Enunciado da questão. Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, accusantium qui dolore iusto necessitatibus fugit, doloribus nostrum ipsum voluptatum architecto recusandae nisi aperiam facilis amet aliquid, repudiandae eos molestias quia.Neque, accusantium qui dolore iusto necessitatibus fugit, doloribus nostrum ipsum voluptatum architecto recusandae nisi aperiam facilis amet aliquid, repudiandae eos molestias quia.",
+                    "<b>3º</b> Enunciado da questão. Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, accusantium qui dolore iusto necessitatibus fugit, doloribus nostrum ipsum voluptatum architecto recusandae nisi aperiam facilis amet aliquid, repudiandae eos molestias quia.Neque, accusantium qui dolore iusto necessitatibus fugit, doloribus nostrum ipsum voluptatum architecto recusandae nisi aperiam facilis amet aliquid, repudiandae eos molestias quia.",
+                    "<b>4º</b> Enunciado da questão. Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, accusantium qui dolore iusto necessitatibus fugit, doloribus nostrum ipsum voluptatum architecto recusandae nisi aperiam facilis amet aliquid, repudiandae eos molestias quia.Neque, accusantium qui dolore iusto necessitatibus fugit, doloribus nostrum ipsum voluptatum architecto recusandae nisi aperiam facilis amet aliquid, repudiandae eos molestias quia.",
+                    "<b>5º</b> Enunciado da questão. Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, accusantium qui dolore iusto necessitatibus fugit, doloribus nostrum ipsum voluptatum architecto recusandae nisi aperiam facilis amet aliquid, repudiandae eos molestias quia.Neque, accusantium qui dolore iusto necessitatibus fugit, doloribus nostrum ipsum voluptatum architecto recusandae nisi aperiam facilis amet aliquid, repudiandae eos molestias quia."],
+
+                    ["<b>1º</b> Enunciado da questão. Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, accusantium qui dolore iusto necessitatibus fugit, doloribus nostrum ipsum voluptatum architecto recusandae nisi aperiam facilis amet aliquid, repudiandae eos molestias quia.Neque, accusantium qui dolore iusto necessitatibus fugit, doloribus nostrum ipsum voluptatum architecto recusandae nisi aperiam facilis amet aliquid, repudiandae eos molestias quia.",
+                    "<b>2º</b> Enunciado da questão. Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, accusantium qui dolore iusto necessitatibus fugit, doloribus nostrum ipsum voluptatum architecto recusandae nisi aperiam facilis amet aliquid, repudiandae eos molestias quia.Neque, accusantium qui dolore iusto necessitatibus fugit, doloribus nostrum ipsum voluptatum architecto recusandae nisi aperiam facilis amet aliquid, repudiandae eos molestias quia.",
+                    "<b>3º</b> Enunciado da questão. Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, accusantium qui dolore iusto necessitatibus fugit, doloribus nostrum ipsum voluptatum architecto recusandae nisi aperiam facilis amet aliquid, repudiandae eos molestias quia.Neque, accusantium qui dolore iusto necessitatibus fugit, doloribus nostrum ipsum voluptatum architecto recusandae nisi aperiam facilis amet aliquid, repudiandae eos molestias quia.",
+                    "<b>4º</b> Enunciado da questão. Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, accusantium qui dolore iusto necessitatibus fugit, doloribus nostrum ipsum voluptatum architecto recusandae nisi aperiam facilis amet aliquid, repudiandae eos molestias quia.Neque, accusantium qui dolore iusto necessitatibus fugit, doloribus nostrum ipsum voluptatum architecto recusandae nisi aperiam facilis amet aliquid, repudiandae eos molestias quia.",
+                    "<b>5º</b> Enunciado da questão. Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, accusantium qui dolore iusto necessitatibus fugit, doloribus nostrum ipsum voluptatum architecto recusandae nisi aperiam facilis amet aliquid, repudiandae eos molestias quia.Neque, accusantium qui dolore iusto necessitatibus fugit, doloribus nostrum ipsum voluptatum architecto recusandae nisi aperiam facilis amet aliquid, repudiandae eos molestias quia."],
+
+                    ["<b>1º</b> Enunciado da questão. Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, accusantium qui dolore iusto necessitatibus fugit, doloribus nostrum ipsum voluptatum architecto recusandae nisi aperiam facilis amet aliquid, repudiandae eos molestias quia.Neque, accusantium qui dolore iusto necessitatibus fugit, doloribus nostrum ipsum voluptatum architecto recusandae nisi aperiam facilis amet aliquid, repudiandae eos molestias quia.",
+                    "<b>2º</b> Enunciado da questão. Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, accusantium qui dolore iusto necessitatibus fugit, doloribus nostrum ipsum voluptatum architecto recusandae nisi aperiam facilis amet aliquid, repudiandae eos molestias quia.Neque, accusantium qui dolore iusto necessitatibus fugit, doloribus nostrum ipsum voluptatum architecto recusandae nisi aperiam facilis amet aliquid, repudiandae eos molestias quia.",
+                    "<b>3º</b> Enunciado da questão. Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, accusantium qui dolore iusto necessitatibus fugit, doloribus nostrum ipsum voluptatum architecto recusandae nisi aperiam facilis amet aliquid, repudiandae eos molestias quia.Neque, accusantium qui dolore iusto necessitatibus fugit, doloribus nostrum ipsum voluptatum architecto recusandae nisi aperiam facilis amet aliquid, repudiandae eos molestias quia.",
+                    "<b>4º</b> Enunciado da questão. Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, accusantium qui dolore iusto necessitatibus fugit, doloribus nostrum ipsum voluptatum architecto recusandae nisi aperiam facilis amet aliquid, repudiandae eos molestias quia.Neque, accusantium qui dolore iusto necessitatibus fugit, doloribus nostrum ipsum voluptatum architecto recusandae nisi aperiam facilis amet aliquid, repudiandae eos molestias quia.",
+                    "<b>5º</b> Enunciado da questão. Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, accusantium qui dolore iusto necessitatibus fugit, doloribus nostrum ipsum voluptatum architecto recusandae nisi aperiam facilis amet aliquid, repudiandae eos molestias quia.Neque, accusantium qui dolore iusto necessitatibus fugit, doloribus nostrum ipsum voluptatum architecto recusandae nisi aperiam facilis amet aliquid, repudiandae eos molestias quia."],
+
+                    ["<b>1º</b> Enunciado da questão. Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, accusantium qui dolore iusto necessitatibus fugit, doloribus nostrum ipsum voluptatum architecto recusandae nisi aperiam facilis amet aliquid, repudiandae eos molestias quia.Neque, accusantium qui dolore iusto necessitatibus fugit, doloribus nostrum ipsum voluptatum architecto recusandae nisi aperiam facilis amet aliquid, repudiandae eos molestias quia.",
+                    "<b>2º</b> Enunciado da questão. Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, accusantium qui dolore iusto necessitatibus fugit, doloribus nostrum ipsum voluptatum architecto recusandae nisi aperiam facilis amet aliquid, repudiandae eos molestias quia.Neque, accusantium qui dolore iusto necessitatibus fugit, doloribus nostrum ipsum voluptatum architecto recusandae nisi aperiam facilis amet aliquid, repudiandae eos molestias quia.",
+                    "<b>3º</b> Enunciado da questão. Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, accusantium qui dolore iusto necessitatibus fugit, doloribus nostrum ipsum voluptatum architecto recusandae nisi aperiam facilis amet aliquid, repudiandae eos molestias quia.Neque, accusantium qui dolore iusto necessitatibus fugit, doloribus nostrum ipsum voluptatum architecto recusandae nisi aperiam facilis amet aliquid, repudiandae eos molestias quia.",
+                    "<b>4º</b> Enunciado da questão. Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, accusantium qui dolore iusto necessitatibus fugit, doloribus nostrum ipsum voluptatum architecto recusandae nisi aperiam facilis amet aliquid, repudiandae eos molestias quia.Neque, accusantium qui dolore iusto necessitatibus fugit, doloribus nostrum ipsum voluptatum architecto recusandae nisi aperiam facilis amet aliquid, repudiandae eos molestias quia.",
+                    "<b>5º</b> Enunciado da questão. Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, accusantium qui dolore iusto necessitatibus fugit, doloribus nostrum ipsum voluptatum architecto recusandae nisi aperiam facilis amet aliquid, repudiandae eos molestias quia.Neque, accusantium qui dolore iusto necessitatibus fugit, doloribus nostrum ipsum voluptatum architecto recusandae nisi aperiam facilis amet aliquid, repudiandae eos molestias quia."]
+]
+
+let alternertivas = [["Alternativa", "Alternativa", "Alternativa", "Alternativa"],
+                     ["Alternativa", "Alternativa", "Alternativa", "Alternativa"],
+                     ["Alternativa", "Alternativa", "Alternativa", "Alternativa"],
+                     ["Alternativa", "Alternativa", "Alternativa", "Alternativa"],
+                     ["Alternativa", "Alternativa", "Alternativa", "Alternativa"],
+                     ["Alternativa", "Alternativa", "Alternativa", "Alternativa"],
+                     ["Alternativa", "Alternativa", "Alternativa", "Alternativa"]
+]
+
+let imagens = [["Img/OncFundo.jpg", "Img/obi.png", "Img/obr.png", "Img/OncFundo.jpg", "Img/OncFundo.jpg"],
+                ["Img/OncFundo.jpg", "Img/obi.png", "Img/obr.png", "Img/OncFundo.jpg", "Img/OncFundo.jpg"],
+                ["Img/OncFundo.jpg", "Img/obi.png", "Img/obr.png", "Img/OncFundo.jpg", "Img/OncFundo.jpg"],
+                ["Img/OncFundo.jpg", "Img/obi.png", "Img/obr.png", "Img/OncFundo.jpg", "Img/OncFundo.jpg"],
+                ["Img/OncFundo.jpg", "Img/obi.png", "Img/obr.png", "Img/OncFundo.jpg", "Img/OncFundo.jpg"],
+                ["Img/OncFundo.jpg", "Img/obi.png", "Img/obr.png", "Img/OncFundo.jpg", "Img/OncFundo.jpg"],
+                ["Img/OncFundo.jpg", "Img/obi.png", "Img/obr.png", "Img/OncFundo.jpg", "Img/OncFundo.jpg"]
+]
+
+let Contquizzes = document.querySelector(".ConteinerQuiz");
+let quiz = document.querySelector(".quiz");
+
+let pers = document.querySelectorAll(".Enunciado p");
+let alts = document.querySelectorAll(".Alternativas button");
+let imgs = document.querySelectorAll(".questao img");
 
 function Quiz(ind){
-    Contquizzes[ind].classList.add("iniciarConteiner");
-    
-    quiz[ind].classList.add("initQuiz");
+    Contquizzes.classList.add("iniciarConteiner");
+    quiz.classList.add("initQuiz");
+
+    for (let i = 0; i < perguntas.length; i++) {
+        pers[i].innerHTML = perguntas[ind][i];
+        alts[i].innerHTML = alternertivas[ind][i];
+        imgs[i].src = imagens[ind][i];
+        
+    }
 }
 
 
@@ -365,13 +435,9 @@ function DesQuiz(){
         block: "nearest"
     });
 
-    Contquizzes.forEach(Cont => {
-        Cont.classList.remove("iniciarConteiner");
-    });
+    Contquizzes.classList.remove("iniciarConteiner");
     
-    quiz.forEach(qui => {
-        qui.classList.remove("initQuiz");
-    });
+    quiz.classList.remove("initQuiz");
 }
 
 
@@ -379,7 +445,7 @@ function DesQuiz(){
 
 var menu = document.getElementById("IdMenu");
 var bg = document.querySelector("body")
-var r = false
+var r = true
 
 bg.classList.add("offbg");
 
@@ -395,4 +461,11 @@ function showMenu(){
         bg.classList.add("offbg");
     }
     
+}
+
+function CloseMenu(){
+    menu.classList.add("off");
+    bg.classList.add("offbg");
+
+    r = false
 }
