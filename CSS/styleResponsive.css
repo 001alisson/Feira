@@ -3,6 +3,9 @@
         padding-left: 0;
         background-position: center;
     }
+    .off{
+        transform: translateX(-100%);
+    }
     .offbg{
         padding-left: 0;
     }
