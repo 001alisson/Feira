@@ -15,6 +15,46 @@ body{
     transition: 0.5s;
 }
 
+.contImg{
+    width: 95%;
+    align-self: center;
+    border-radius: 8px;
+    height: fit-content;
+    
+    display: flex;
+    align-items: stretch;
+    overflow-x: hidden;
+    margin-bottom: 40px;
+}
+.contImg:hover.contImg section{
+    opacity: 1.5;
+    transition: 0.7s;
+}
+
+.contImg section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.4);
+    min-width: 110%;
+    color: #f3f3f3;
+    font-size: 80px;
+    font-weight: bold;
+    text-shadow: 1px 2px 3px black;
+    text-align: center;
+    letter-spacing: 1.2px;
+    transform: translateX(-100%);
+    opacity: 0;
+    transition: 0.7s;
+}
+
+.imginit{
+    width: 100%; 
+    align-self: center; 
+    border-radius: 8px; 
+    
+}
+
 #btm{
     display: none;
 }
@@ -746,7 +786,7 @@ div.apdr{
 
 .telaexpo header{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     width: 100%;
     height: fit-content;
     flex-flow: row wrap;
@@ -762,9 +802,8 @@ div.apdr{
     transition: 1s;
 }
 .imagem{
-    width: 35%;
+    width: 95%;
     height: 450px;
-    
 }
 .imagem img{
     width: 100%;
@@ -778,7 +817,7 @@ div.apdr{
     transition: 0.8s;
 }
 .sobre{
-    width: 58%;
+    width: 95%;
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -787,10 +826,10 @@ div.apdr{
 }
 .sobre h1{
     color: #f3f3f3;
-    font-size: 60px;
+    font-size: 50px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 700;
-    
+    line-height: normal;
 }
 .sobre h2{
     color: #e1e1e1;
@@ -823,10 +862,14 @@ div.apdr{
     Width: 100%;
     height: fit-content;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 20px;
+}
+.MaisSobre section p img{
+    margin: 16px;
+    border-radius: 5px;
 }
 .TextoMaisSobre{
     flex: 65%;
@@ -841,7 +884,7 @@ div.apdr{
 }
 
 .ImagemMaisSobre{
-    flex: 30%;
+    width: 95%;
     height: 100%;
     padding: 10px;
     justify-content: center;

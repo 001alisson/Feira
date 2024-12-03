@@ -9,6 +9,11 @@
     .offbg{
         padding-left: 0;
     }
+
+    .contImg section{
+        font-size: 40px;
+    }
+
     .nav{
         position: fixed;
     }
@@ -107,7 +112,7 @@
     }
     .Simulado, .sl2{
         flex-shrink: 0;
-        width: 90%;
+        width: 100%;
     }
 
 
