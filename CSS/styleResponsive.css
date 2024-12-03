@@ -17,6 +17,11 @@
     .nav{
         position: fixed;
     }
+    .menu button{
+        max-height: 38px;
+        font-size: 18px;
+    }
+    
 
     #btm{
         display: flex;
@@ -113,6 +118,9 @@
     .Simulado, .sl2{
         flex-shrink: 0;
         width: 100%;
+    }
+    #TitSimul{
+        font-size: 24px;
     }
 
 
