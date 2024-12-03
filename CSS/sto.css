@@ -25,6 +25,7 @@ body{
     align-items: stretch;
     overflow-x: hidden;
     margin-bottom: 40px;
+    margin-top: 40px;
 }
 .contImg:hover.contImg section{
     opacity: 1.5;
@@ -1033,7 +1034,6 @@ div.apdr{
     cursor: pointer;
     border: none;
     
-    background: linear-gradient(to left, rgb(0,0,0,0) 0%, black 200%);
     opacity: 0.5;
     transition: all 0.5s;
 

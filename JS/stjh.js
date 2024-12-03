@@ -148,73 +148,73 @@ function Pausar(){
 }
 
 function Aula1Olimp1(){
-    video.src = "https://www.youtube.com/embed/SWG9KWk5XPI?si=whr3RdEqXKjYbrHM";
-    video.title = "Apresentando o VSCode";
+    video.src = "https://www.youtube.com/embed/Gn94NkoAlxY?si=C7gJcmQlq5SUao47";
+    video.title = "Funções em Python";
     // document.getElementById("sc").innerHTML = "Aula 1";
-    document.getElementById("Titulo").innerHTML = "Preparando o Ambiente de programação";
-    document.getElementById("descricao").innerHTML = "É sempre importante ter um espaço para trabalhar, antes de partir para as contas, é necessário conseguir papel e lápis, já para começar a programar, é necessário possuir um interpretador de comandos, ou seja, um software/aplicativo capaz de interpretar os códigos.";
+    document.getElementById("Titulo").innerHTML = "Funções em Python";
+    document.getElementById("descricao").innerHTML = "Um conteúdo constantemente é nessa olimpíada e seu domínio é de extrema imprtância, mas ter conhecimento sobre funções está além da progração, uma vez que utilizamos da ideia de função em várias outras áreas do conhecimento, principalmente na matemático. Funções são muito úteis na programação, com elas podemos reutilizar blocos de código e otimizar o processamento do programa. Em definição, um função é um bloco de código identificado unicamente por nome que, ao ser definida, pode ser acessada várias vezes e em várias partes do código, além disso, as funções podem receber parâmetro e retornar valores.";
     document.getElementById("professor").innerHTML = "Professor Yuri Lacerda - IFCE Campus Crato.";
     // material.href = "file:///C:/Users/alisson/Desktop/Plataforma/MODELOS DCUMENTOS OMIF 2024.pdf";
     // material.download = "MODELOS DCUMENTOS OMIF 2024.pdf";
     // Pausar();
 
-    Bquiz(4);
+    Bquiz(1);
 }
 
 function Aula2Olimp1(){
-    video.src = "https://www.youtube.com/embed/SWG9KWk5XPI?si=whr3RdEqXKjYbrHM";
-    video.title = "Apresentando o VSCode";
-    // document.getElementById("sc").innerHTML = "Aula 1";
-    document.getElementById("Titulo").innerHTML = "Preparando o Ambiente de programação";
-    document.getElementById("descricao").innerHTML = "É sempre importante ter um espaço para trabalhar, antes de partir para as contas, é necessário conseguir papel e lápis, já para começar a programar, é necessário possuir um interpretador de comandos, ou seja, um software/aplicativo capaz de interpretar os códigos.";
+    video.src = "https://www.youtube.com/embed/8wS_DmpA_dA?si=QIbtqPYctFkllCwj";
+    video.title = "Manipulação de listas em Python";
+    // document.getElementById('sc').innerHTML = "Aula 2";
+    document.getElementById('Titulo').innerHTML = "Listas em Python";
+    document.getElementById('descricao').innerHTML = "Com a forte presença de questões que necessitem desse conhecimento, as listas apresentam-se desempenhando grande importãncia para a realização de certas questões. Em diferentes momentos de nossa vida, precisamos organizar diferentes elementos por meio de listas. Na programação não é muito diferente, onde a lista é definida como uma estrutura/sequência de dados (de qualquer tipo em python).";
     document.getElementById("professor").innerHTML = "Professor Yuri Lacerda - IFCE Campus Crato.";
-    // material.href = "file:///C:/Users/alisson/Desktop/Plataforma/MODELOS DCUMENTOS OMIF 2024.pdf";
-    // material.download = "MODELOS DCUMENTOS OMIF 2024.pdf";
+    // material.href = "file:///C:/Users/alisson/Desktop/Plataforma/Fungos - ap.pdf";
+    // material.download = "Fungos - ap.pdf";
     // Pausar();
 
-    Bquiz(5);
+    Bquiz(2);
 }
 
 function Aula3Olimp1(){
-    video.src = "https://www.youtube.com/embed/SWG9KWk5XPI?si=whr3RdEqXKjYbrHM";
-    video.title = "Apresentando o VSCode";
-    // document.getElementById("sc").innerHTML = "Aula 1";
-    document.getElementById("Titulo").innerHTML = "Preparando o Ambiente de programação";
-    document.getElementById("descricao").innerHTML = "É sempre importante ter um espaço para trabalhar, antes de partir para as contas, é necessário conseguir papel e lápis, já para começar a programar, é necessário possuir um interpretador de comandos, ou seja, um software/aplicativo capaz de interpretar os códigos.";
+    video.src = "https://www.youtube.com/embed/ERkvPPT7BJ8?si=frVLXAAAh9oegeZW";
+    video.title = "Manipulando matrizes em py";
+    // document.getElementById('sc').innerHTML = "Aula 3";
+    document.getElementById('Titulo').innerHTML = "Matrizes em Python";
+    document.getElementById('descricao').innerHTML = "Dentre as questões mais complicadas, várias tem abordado esse conteúdo, o qual também não se esconde de nossa vida cotidiana. Ao brincarmos de batalha naval e até nos referenciarmos em certos mapas, estamos utlizando esse conteúdo, que por sinal também está presente na matemática. Segundo o livro <i>Fundamentos de Programação<i/>, uma matriz é uma variável formada por uma sequência de valores dispostos em linhas e coluna.";
     document.getElementById("professor").innerHTML = "Professor Yuri Lacerda - IFCE Campus Crato.";
     // material.href = "file:///C:/Users/alisson/Desktop/Plataforma/MODELOS DCUMENTOS OMIF 2024.pdf";
     // material.download = "MODELOS DCUMENTOS OMIF 2024.pdf";
     // Pausar();
 
-    Bquiz(6);
+    Bquiz(3);
 }
 
 function Aula4Olimp1(){
-    video.src = "https://www.youtube.com/embed/SWG9KWk5XPI?si=whr3RdEqXKjYbrHM";
-    video.title = "Apresentando o VSCode";
+    video.src = "https://www.youtube.com/embed/fGDodgQmeTE?si=GZ75c5mnW3e6nSPl";
+    video.title = "Outra forma de programar em python";
     // document.getElementById("sc").innerHTML = "Aula 1";
-    document.getElementById("Titulo").innerHTML = "Preparando o Ambiente de programação";
-    document.getElementById("descricao").innerHTML = "É sempre importante ter um espaço para trabalhar, antes de partir para as contas, é necessário conseguir papel e lápis, já para começar a programar, é necessário possuir um interpretador de comandos, ou seja, um software/aplicativo capaz de interpretar os códigos.";
+    document.getElementById("Titulo").innerHTML = "Conheça outra forma de programar em python";
+    document.getElementById("descricao").innerHTML = "Sem um ambiente para trabalhar, o trabalho torna-se muito difícil e as vezes pode não ser possível realizá-lo. Assim, que tal conhecer novas formas de criar e executar programas na linguagem de programação python? Aumente ainda mais o seu repertório e aprenda um pouco mais sobre programação em python e seus ambientes. Está aula é perfeita para quem curte/utiliza o sistema operacional linux";
     document.getElementById("professor").innerHTML = "Professor Yuri Lacerda - IFCE Campus Crato.";
     // material.href = "file:///C:/Users/alisson/Desktop/Plataforma/MODELOS DCUMENTOS OMIF 2024.pdf";
     // material.download = "MODELOS DCUMENTOS OMIF 2024.pdf";
     // Pausar();
 
-    Bquiz(0);
+    Bquiz(7);
 }
 
 function Aula5Olimp1(){
-    video.src = "https://www.youtube.com/embed/SWG9KWk5XPI?si=whr3RdEqXKjYbrHM";
-    video.title = "Apresentando o VSCode";
+    video.src = "https://www.youtube.com/embed/2FTLfUoyCfc?si=J2omFJd8QbUZfF-F";
+    video.title = "Outra forma de programar em python";
     // document.getElementById("sc").innerHTML = "Aula 1";
-    document.getElementById("Titulo").innerHTML = "Preparando o Ambiente de programação";
-    document.getElementById("descricao").innerHTML = "É sempre importante ter um espaço para trabalhar, antes de partir para as contas, é necessário conseguir papel e lápis, já para começar a programar, é necessário possuir um interpretador de comandos, ou seja, um software/aplicativo capaz de interpretar os códigos.";
+    document.getElementById("Titulo").innerHTML = "Conheça outra forma de programar em python";
+    document.getElementById("descricao").innerHTML = "Sem um ambiente para trabalhar, o trabalho torna-se muito difícil e as vezes pode não ser possível realizá-lo. Assim, que tal conhecer novas formas de criar e executar programas na linguagem de programação python? Aumente ainda mais o seu repertório e aprenda um pouco mais sobre programação em python e seus ambientes. Está aula é perfeita para quem curte/utiliza o sistema operacional windons";
     document.getElementById("professor").innerHTML = "Professor Yuri Lacerda - IFCE Campus Crato.";
     // material.href = "file:///C:/Users/alisson/Desktop/Plataforma/MODELOS DCUMENTOS OMIF 2024.pdf";
     // material.download = "MODELOS DCUMENTOS OMIF 2024.pdf";
     // Pausar();
 
-    Bquiz(0);
+    Bquiz(7);
 }
 
 /* */
@@ -234,45 +234,45 @@ function Aula1Olimp2(){
 }
 
 function Aula2Olimp2(){
-    video.src = "https://www.youtube.com/embed/Gn94NkoAlxY?si=C7gJcmQlq5SUao47";
-    video.title = "Funções em Python";
+    video.src = "https://www.youtube.com/embed/7cqZ_trY5os?si=NgOjZnE8vT6E7FoB";
+    video.title = "Resolução de Questões";
     // document.getElementById("sc").innerHTML = "Aula 1";
-    document.getElementById("Titulo").innerHTML = "Funções em Python";
-    document.getElementById("descricao").innerHTML = "Um conteúdo constantemente é nessa olimpíada e seu domínio é de extrema imprtância, mas ter conhecimento sobre funções está além da progração, uma vez que utilizamos da ideia de função em várias outras áreas do conhecimento, principalmente na matemático. Funções são muito úteis na programação, com elas podemos reutilizar blocos de código e otimizar o processamento do programa. Em definição, um função é um bloco de código identificado unicamente por nome que, ao ser definida, pode ser acessada várias vezes e em várias partes do código, além disso, as funções podem receber parâmetro e retornar valores.";
-    document.getElementById("professor").innerHTML = "Professor Yuri Lacerda - IFCE Campus Crato.";
+    document.getElementById("Titulo").innerHTML = "Prática com questões";
+    document.getElementById("descricao").innerHTML = "Se preparar resolvendo quetões é sempre muito importante para se adaptar à dinâmica da olimpíada. Não esqueça de pausar o vídeo e tentar resolver a questão por si só. Um dica, se estiver com dúvida, veja o início da resolução e tente proseguir sozinho logo após.";
+    document.getElementById("professor").innerHTML = "Professor João Vilian - IFCE Campus Crato.";
     // material.href = "file:///C:/Users/alisson/Desktop/Plataforma/MODELOS DCUMENTOS OMIF 2024.pdf";
     // material.download = "MODELOS DCUMENTOS OMIF 2024.pdf";
     // Pausar();
 
-    Bquiz(1);
+    Bquiz(7);
 }
 
 function Aula3Olimp2(){
-    video.src = "https://www.youtube.com/embed/8wS_DmpA_dA?si=QIbtqPYctFkllCwj";
-    video.title = "Manipulação de listas em Python";
+    video.src = "https://www.youtube.com/embed/o5ShSM9WjqE?si=62C07FweT5ewMllJ";
+    video.title = "Mais questões";
     // document.getElementById('sc').innerHTML = "Aula 2";
-    document.getElementById('Titulo').innerHTML = "Listas em Python";
-    document.getElementById('descricao').innerHTML = "Com a forte presença de questões que necessitem desse conhecimento, as listas apresentam-se desempenhando grande importãncia para a realização de certas questões. Em diferentes momentos de nossa vida, precisamos organizar diferentes elementos por meio de listas. Na programação não é muito diferente, onde a lista é definida como uma estrutura/sequência de dados (de qualquer tipo em python).";
-    document.getElementById("professor").innerHTML = "Professor Yuri Lacerda - IFCE Campus Crato.";
+    document.getElementById('Titulo').innerHTML = "Que tal mais uma prática?";
+    document.getElementById('descricao').innerHTML = "Quanto mais praticamos melhores ficamos, é aqui que chega a hora de colocar todo o conhecimento acumulado em prática . Lembresse de sempre tentar resolver a questão sozinho. ";
+    document.getElementById("professor").innerHTML = "Professor João Vilian - IFCE Campus Crato.";
     // material.href = "file:///C:/Users/alisson/Desktop/Plataforma/Fungos - ap.pdf";
     // material.download = "Fungos - ap.pdf";
     // Pausar();
 
-    Bquiz(2);
+    Bquiz(7);
 }
 
 function Aula4Olimp2(){
-    video.src = "https://www.youtube.com/embed/ERkvPPT7BJ8?si=frVLXAAAh9oegeZW";
-    video.title = "Manipulando matrizes em py";
+    video.src = "https://www.youtube.com/embed/FN5SM8hoy1s?si=fysGIz-J39hj_Ew2";
+    video.title = "Outras formas de praticar";
     // document.getElementById('sc').innerHTML = "Aula 3";
-    document.getElementById('Titulo').innerHTML = "Matrizes em Python";
-    document.getElementById('descricao').innerHTML = "Dentre as questões mais complicadas, várias tem abordado esse conteúdo, o qual também não se esconde de nossa vida cotidiana. Ao brincarmos de batalha naval e até nos referenciarmos em certos mapas, estamos utlizando esse conteúdo, que por sinal também está presente na matemática. Segundo o livro <i>Fundamentos de Programação<i/>, uma matriz é uma variável formada por uma sequência de valores dispostos em linhas e coluna.";
+    document.getElementById('Titulo').innerHTML = "Continue praticando";
+    document.getElementById('descricao').innerHTML = "É sempre importante manter o foco na prática. Por isso, aqui está um repositório muito extenso e eficiente de questões, as quais estão organizadas de forma coerente e para diversos níveis de dificuldade. Outra dica, não perca tempo e já ponha em prática o que está sendo apresentado na aula, isto é, acesse a plataforma o quanto antes.";
     document.getElementById("professor").innerHTML = "Professor Yuri Lacerda - IFCE Campus Crato.";
     // material.href = "file:///C:/Users/alisson/Desktop/Plataforma/MODELOS DCUMENTOS OMIF 2024.pdf";
     // material.download = "MODELOS DCUMENTOS OMIF 2024.pdf";
     // Pausar();
 
-    Bquiz(3);
+    Bquiz(7);
 }
 
 function Aula5Olimp2(){
@@ -389,11 +389,11 @@ let alternertivas = [
                 ]
 ]
 
-let imagens = [["Img/OncFundo.jpg", "Img/obi.png", "Img/obr.png", "Img/OncFundo.jpg", "Img/OncFundo.jpg"],
-                ["Img/OncFundo.jpg", "Img/obi.png", "Img/obr.png", "Img/OncFundo.jpg", "Img/OncFundo.jpg"],
-                ["Img/OncFundo.jpg", "Img/obi.png", "Img/obr.png", "Img/OncFundo.jpg", "Img/OncFundo.jpg"],
-                ["Img/OncFundo.jpg", "Img/obi.png", "Img/obr.png", "Img/OncFundo.jpg", "Img/OncFundo.jpg"],
-                ["Img/OncFundo.jpg", "Img/obi.png", "Img/obr.png", "Img/OncFundo.jpg", "Img/OncFundo.jpg"],
+let imagens = [["Img/vscode.jpg", "Img/vscode.jpg", "Img/vscode.jpg", "Img/vscode.jpg", "Img/vscode.jpg"],
+                ["Img/python.jpg", "Img/Programação.jpg", "Img/obr.png", "Img/Programação2.jpg", "Img/python.jpg"],
+                ["Img/python.jpg", "Img/Programação2.jpg", "Img/obr.png", "Img/Programação3.jpg", "Img/python.jpg"],
+                ["Img/python.jpg", "Img/Programação2.jpg", "Img/obr.png", "Img/Programação3.jpg", "Img/python.jpg"],
+                ["Img/python.jpg", "Img/Programação.jpg", "Img/obr.png", "Img/Programação3.jpg", "Img/python.jpg"],
                 ["Img/OncFundo.jpg", "Img/obi.png", "Img/obr.png", "Img/OncFundo.jpg", "Img/OncFundo.jpg"],
                 ["Img/OncFundo.jpg", "Img/obi.png", "Img/obr.png", "Img/OncFundo.jpg", "Img/OncFundo.jpg"]
 ]
